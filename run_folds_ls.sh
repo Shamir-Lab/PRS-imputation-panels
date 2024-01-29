@@ -28,7 +28,7 @@ for discovery in ${discoveries[@]}; do
                     res1=$(ls -1 /specific/netapp5/gaga/gaga-pd/prs_data/PRSs//${discovery}_${target}/${imp}/rep_${base_rep}_${cur_rep}/lasso/prs.cv.${method}___${fold}_${folds}_train.*.weights 2>/dev/null| wc -l );
                     res2=$(ls -1 /specific/netapp5/gaga/gaga-pd/prs_data/PRSs//${discovery}_${target}/${imp}/rep_${base_rep}_${cur_rep}/prs.cv.${method}_${pheno}__${fold}_${folds}_validation.*.profile 2>/dev/null| wc -l ) ;
                     res3=$(ls -1 /specific/netapp5/gaga/gaga-pd/prs_data/PRSs//${discovery}_${target}/${imp}/rep_${base_rep}_${cur_rep}/prs.cv.${method}_${pheno}__${fold}_${folds}_validation.or.percentile.*.tsv 2>/dev/null | wc -l );
-                    stage=3 # -1
+                    stage= -1
                     if [[ ${res3} -lt ${min_n_profiles_res3} ]]; then
                         stage=3
                     fi
