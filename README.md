@@ -7,7 +7,7 @@ Below is the description of the main source files
   - `qc_discovery_data.sh`: QC of the discovery data
   - `qc_discovery_data.sh` : QC of the target data
 
-- cross validation (CV) analysis:
+- cross validation (CV) analysis. Note that method can be one of the following strings: pt2 (P+T target set LD),pt3 (P+T EUR/EAS LD),ls (Lassosum),ld (LDpred):
   - `calc_prs_cv_<method>.sh`: calculates PRS
   - `calc_metrics_<method>`: calculates the performance of a specific fold 
   - `run_folds_<method>.sh`: executes nested CV
