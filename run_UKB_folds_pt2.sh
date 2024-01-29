@@ -1,0 +1,1 @@
+source run_UKB_folds_pt_and_pt2.sh "$@" "--method=pt2"
