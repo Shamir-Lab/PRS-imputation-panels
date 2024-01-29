@@ -13,8 +13,8 @@ Below is the description of the main source files
   - `run_folds_<method>.sh`: executes nested CV
 
 - Figures and tables generation:
-  - Notebooks/aggregate_results.ipynb`: summarzies the data 
-  - Notebooks/generate_figures_and_tables.ipynb`: Explains how to generate figures and plots
+  - `Notebooks/aggregate_results.ipynb`: summarzies the data 
+  - `Notebooks/generate_figures_and_tables.ipynb`: Explains how to generate figures and plots
  
 
 #### Note that the source files were tailored to the specific configuration of the development enviroment.
