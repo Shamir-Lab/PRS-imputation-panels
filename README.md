@@ -14,7 +14,7 @@ Below is the description of the main source files
 
 - Figures and tables generation:
   - `Notebooks/aggregate_results.ipynb`: summarzies the data 
-  - `Notebooks/generate_figures_and_tables.ipynb`: Explains how to generate figures and plots
+  - `Notebooks/generate_figures_and_tables.ipynb`: explains how to generate figures and plots
  
 
 #### Note that the source files were tailored to the specific configuration of the development enviroment.
