@@ -1,5 +1,5 @@
 # PRS-imputation-panels
-This reposity contains the underlying source code for analysis in the paper [*The predictive capacity of polygenic risk scores for disease risk is only moderately influenced by imputation panels tailored to the target population*](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btae036/7587512) by Levi el al.
+This reposity contains scripts used in the study [*"The predictive capacity of polygenic risk scores for disease risk is only moderately influenced by imputation panels tailored to the target population", by Levi, Elkon and Shamir (Bioinformatics 2024, DOI: 10.1093/bioinformatics/btae036)*](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btae036/7587512).
 
 Below is the description of the main source files 
 
